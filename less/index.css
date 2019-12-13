@@ -211,6 +211,14 @@ nav {
   font-size: 1.6rem;
   padding: 20px;
 }
+@media (max-width: 500px) {
+  .home {
+    background-color: red;
+  }
+}
+.home .content-home {
+  border-bottom: 2px dashed silver;
+}
 .home .content-home h2 {
   padding-top: 2%;
 }
