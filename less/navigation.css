@@ -1,0 +1,28 @@
+nav {
+  border-bottom: 2px dashed silver;
+  display: flex;
+  justify-content: center;
+  padding: 2% auto;
+}
+.navigation {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation .list {
+  width: 42%;
+  text-align: end;
+}
+.navigation a {
+  margin: 0% 3% 0% 3%;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+.navigation span {
+  font-size: 5rem;
+  font-family: 'Indie Flower', cursive;
+}
